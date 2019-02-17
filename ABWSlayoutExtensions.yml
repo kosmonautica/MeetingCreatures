@@ -1,0 +1,13 @@
+generalFrontSide:
+ file: './graphics/bombWhite.svg'
+ align: left
+ valign: top
+# width: :deck
+ #height: :deck
+ 
+generalBackSide:
+ file: './graphics/bombDisarmBlack.svg'
+ align: :center
+ valign: 'MIDDLE'
+ #width: :deck
+ #height: :deck

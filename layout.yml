@@ -1,0 +1,39 @@
+AllText:
+  font: ChunkFive Roman,Sans 50
+  align: center
+  color: '#FFFFFF'
+
+Title:
+  extends: AllText
+  width: 100
+  y: 150
+
+AttackTitle:
+  extends: AllText
+  color: '#ffffff'
+
+AttackDescription:
+  extends: AllText
+  x: 300
+  y: 500
+  font_size: 40
+  color: '#FFFFFF'
+
+AttackIcon:
+  extends: AttackDescription
+  align: center
+  valign: middle
+  width: 75
+  height: 75
+
+DefendTitle:
+  extends: AllText
+  color: '#000000'
+
+DefendDescription:
+  extends: AttackDescription
+  color: '#000000'
+  y: += 200
+DefendIcon:
+  extends: AttackIcon
+  y: += 200
